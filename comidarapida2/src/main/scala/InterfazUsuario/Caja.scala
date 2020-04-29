@@ -25,6 +25,7 @@ class Caja {
                 costoTotal += p.calcularCosto()
             }
         }
+        _pedido = List()
         return costoTotal
     }
     def mostrarCatalogo() : List[Alimento] = _catalogo
